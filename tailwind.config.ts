@@ -38,8 +38,8 @@ const config: Config = {
 		},
 
 		fontFamily: {
-			primary: ['Segoe UI', 'Tahoma', 'sans-serif'],
-			secondary: ['Segoe UI', 'Tahoma', 'sans-serif'],
+			primary: ['Montserrat', 'sans-serif'],
+			secondary: ['Montserrat', 'sans-serif'],
 		},
 		fontSize: {},
 		extend: {

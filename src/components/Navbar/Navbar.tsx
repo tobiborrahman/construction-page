@@ -16,7 +16,7 @@ const Navbar = () => {
                             <li className='text-[13px]'>Find Worker</li>
                             <li className='text-[13px]'>Industry</li>
                             <li className='text-[13px]'>Resources</li>
-                            <button className='py-[8px] px-[15px] bg-blue-800 rounded-sm border-none text-[13px] text-white font-normal'>Contact Us</button>
+                            <button className='py-[8px] px-[15px] bg-[#004586] rounded-[3px] border-none text-[13px] text-white font-normal'>Contact Us</button>
                             <Image src='/assets/Country Icon.svg' width={25} height={25} alt='country' />
                         </ul>
                     </nav>

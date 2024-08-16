@@ -6,10 +6,10 @@ const Construction = () => {
         <div className='custom-container py-[80px]'>
             <div className='flex justify-between items-center'>
                 <div className='w-[525px]'>
-                    <h2 className='text-[35px]'>
+                    <h2 className='text-[35px] font-semibold'>
                         Your Partner in international Construction Recruitment
                     </h2>
-                    <p className='text-[15px] py-[25px]'>
+                    <p className='text-[11.9px] py-[25px] leading-[20px]'>
                         "Hire & Fire Job s platform for the construction
                         industry connects companies with skilled professionals
                         globally. We streamline recruitment processes, ensuring
@@ -21,7 +21,7 @@ const Construction = () => {
                         qualified talent and optimize your construction projects
                         with ease."
                     </p>
-                    <button className="py-[8px] px-[15px] bg-blue-800 rounded-sm border-none text-[13px] text-white font-normal">
+                    <button className="py-[8px] px-[15px] bg-[#004586] rounded-[3px] border-none text-[13px] text-white font-normal">
                         Contact Us
                     </button>
                 </div>

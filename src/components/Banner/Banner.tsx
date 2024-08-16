@@ -8,13 +8,13 @@ const Banner = () => {
                 style={{ backgroundImage: "url('/assets/Background-image-1.svg')" }}>
 
                 <div>
-                    <h2 className='text-white text-center font-primary'>Construction</h2>
+                    <h2 className='text-white text-[30px] text-center font-semibold'>Construction</h2>
                     <nav>
                         <ul className='flex justify-center items-center gap-2 text-white pt-5'>
                             <li>Home </li>
-                            <Image src='/assets/icon 2.svg' width={18} height={18} alt='icon' />
-                            <li>Industry</li>
-                            <Image src='/assets/icon 2.svg' width={18} height={18} alt='icon' />
+                            <Image className='filter invert brightness-0 hue-rotate-0' src='/assets/icon 2.svg' width={18} height={18} alt='icon' />
+                            <li className='font-primary'>Industry</li>
+                            <Image className='filter invert brightness-0 hue-rotate-0' src='/assets/icon 2.svg' width={18} height={18} alt='icon' />
                             <li>Construction</li>
                         </ul>
                     </nav>
