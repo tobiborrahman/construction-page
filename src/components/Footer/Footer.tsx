@@ -8,11 +8,11 @@ import { FaFacebookF, FaTelegramPlane, FaTwitch, FaTwitter } from 'react-icons/f
 const Footer = () => {
     return (
         <>
-            <div className="bg-[#004585] mt-[100px] lg:mt-[400px] pb-[30px]">
+            <div className="bg-[#004585] mt-[100px] sm:mt-[400px] pb-[30px]">
                 <div className="custom-container">
-                    <div className="text-white pb-5 px-[15px]">
-                        <div className="flex sm:flex-col md:flex-col lg:flex-row justify-between py-10 text-white">
-                            <div className='mb-10 lg:pb-0'>
+                    <div className="text-white px-[15px]">
+                        <div className="flex sm:flex-col md:flex-col lg:flex-row justify-between pt-10 text-white">
+                            <div className='mb-0 sm:pb-0'>
                                 <div>
                                     <Image
 
@@ -47,7 +47,7 @@ const Footer = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="pb-10 lg:mb-0">
+                            <div className="pb-0 sm:mb-0">
                                 <div>
                                     <h4 className="text-[18px] font-medium pb-4 underline underline-offset-8">
                                         Quick Links
@@ -97,7 +97,7 @@ const Footer = () => {
 
                                 </div>
                             </div>
-                            <div className='pb-10 lg:mb-0'>
+                            <div className='pb-0 sm:pb-10'>
                                 <div>
 
                                     <h4 className="text-[18px] font-medium pb-4 underline underline-offset-8">
@@ -191,7 +191,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className='flex justify-center items-center'>
+                <div className='flex justify-center items-center pt-[30px]'>
                     <div className='w-[1300px]'>
                         <div className='text-white flex sm:flex-col sm:items-center md:flex-col lg:flex-row justify-between items-center px-[95px]'>
                             <div>
