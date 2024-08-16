@@ -5,9 +5,9 @@ const ContactUs = () => {
     return (
         <div>
             <div className='custom-container flex justify-center items-center mt-[100px]'>
-                <div className='w-[750px] bg-[#FBFBFB] h-[370px] shadow-[0_2px_15px_0_rgba(0,0,0,0.1)] borders'>
-                    <div className='flex h-full'>
-                        <div className='bg-[url("/assets/Background%20image%202.svg")] bg-cover bg-no-repeat w-[300px] h-full text-white flex justify-center items-center'>
+                <div className='w-[750px] bg-[#FBFBFB] h-[370px] shadow-[0_2px_15px_0_rgba(0,0,0,0.1)]'>
+                    <div className='flex flex-row lg:flex-col h-full'>
+                        <div className='bg-[url("/assets/Background%20image%202.svg")] bg-cover bg-no-repeat w-[300px] lg:w-full py-0 lg:py-10 h-full text-white flex justify-center items-center'>
                             <div>
                                 <h3 className='text-white text-[25px] font-semibold'>Contact Us</h3>
                                 <p className='text-white text-[12px] pb-6'>Say something to start a live chat</p>
@@ -45,7 +45,7 @@ const ContactUs = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='w-[450px] px-12  flex justify-center items-center'>
+                        <div className='w-[450px] lg:w-full px-12 lg:px-4 my-0 lg:mt-10  flex justify-center items-center'>
                             <form className="w-full">
                                 <input className='border rounded-[5px] border-black w-full mb-[14px]  pl-3 py-1 placeholder-[#000000]' type="text" placeholder='First Name' /> <br />
                                 <input className='border rounded-[5px] border-black w-full mb-[14px] placeholder-[#000000] pl-3 py-1' type="email" placeholder='Email' /> <br />

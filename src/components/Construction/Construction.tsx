@@ -4,9 +4,9 @@ import React from 'react';
 const Construction = () => {
     return (
         <div className='custom-container py-[80px]'>
-            <div className='flex justify-between items-center'>
-                <div className='w-[525px]'>
-                    <h2 className='text-[35px] font-semibold'>
+            <div className='flex sm:flex-col md:flex-col justify-between items-center'>
+                <div className='w-[525px] sm:w-full md:w-full'>
+                    <h2 className='text-[35px] sm:text-center font-semibold sm:leading-[35px]'>
                         Your Partner in international Construction Recruitment
                     </h2>
                     <p className='text-[11.9px] py-[25px] leading-[20px]'>
@@ -26,7 +26,7 @@ const Construction = () => {
                     </button>
                 </div>
                 <div>
-                    <Image src='/assets/Image 1.svg' width={500} height={300} alt='construction image' />
+                    <Image className='sm:w-full md:w-full sm:mt-10 md:mt-10' src='/assets/Image 1.svg' width={500} height={300} alt='construction image' />
                 </div>
             </div>
         </div>

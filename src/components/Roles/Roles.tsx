@@ -14,9 +14,10 @@ const Roles = () => {
                         efficiency."
                     </p>
                 </div>
-                <div className="grid grid-cols-4 items-center gap-5">
-                    <div className="card-container bg-[#FBFBFB] shadow-[0px_2px_15px_0_rgba(99,99,99,0.2)] rounded-lg p-[10px]">
+                <div className="grid grid-cols-4 md:grid-cols-2 sm:grid-cols-1 place-items-center gap-5">
+                    <div className="card-container sm:w-full bg-[#FBFBFB] shadow-[0px_2px_15px_0_rgba(99,99,99,0.2)] rounded-lg p-[10px]">
                         <Image
+                            className='sm:w-full'
                             src="/assets/Image 2.svg"
                             width={250}
                             height={150}
@@ -32,8 +33,9 @@ const Roles = () => {
                             <Image src='/assets/Icon 3.svg' width={12} height={12} alt='right arrow icon' />
                         </div>
                     </div>
-                    <div className="card-container bg-[#FBFBFB] shadow-[0px_2px_15px_0_rgba(99,99,99,0.2)] rounded-lg p-[10px]">
+                    <div className="card-container sm:w-full bg-[#FBFBFB] shadow-[0px_2px_15px_0_rgba(99,99,99,0.2)] rounded-lg p-[10px]">
                         <Image
+                            className='sm:w-full'
                             src="/assets/Image 3.svg"
                             width={250}
                             height={150}
@@ -52,6 +54,7 @@ const Roles = () => {
                     </div>
                     <div className="card-container bg-[#FBFBFB] shadow-[0px_2px_15px_0_rgba(99,99,99,0.2)] rounded-lg p-[10px]">
                         <Image
+                            className='sm:w-full'
                             src="/assets/Image 4.svg"
                             width={250}
                             height={150}
@@ -70,6 +73,7 @@ const Roles = () => {
                     </div>
                     <div className="card-container bg-[#FBFBFB] shadow-[0px_2px_15px_0_rgba(99,99,99,0.2)] rounded-lg p-[10px]">
                         <Image
+                            className='sm:w-full'
                             src="/assets/Image 5.svg"
                             width={250}
                             height={150}
@@ -86,8 +90,9 @@ const Roles = () => {
                             <Image src='/assets/Icon 3.svg' width={12} height={12} alt='right arrow icon' />
                         </div>
                     </div>
-                    <div className="card-container bg-[#FBFBFB] shadow-[0px_2px_15px_0_rgba(99,99,99,0.2)] rounded-lg p-[10px]">
+                    <div className="card-container sm:w-full bg-[#FBFBFB] shadow-[0px_2px_15px_0_rgba(99,99,99,0.2)] rounded-lg p-[10px] col-start-2 md:col-start-1 sm:col-start-1">
                         <Image
+                            className='sm:w-full'
                             src="/assets/Image 6.svg"
                             width={250}
                             height={150}
@@ -104,8 +109,9 @@ const Roles = () => {
                             <Image src='/assets/Icon 3.svg' width={12} height={12} alt='right arrow icon' />
                         </div>
                     </div>
-                    <div className="card-container bg-[#FBFBFB] shadow-[0px_2px_15px_0_rgba(99,99,99,0.2)] rounded-lg p-[10px]">
+                    <div className="card-container sm:w-full bg-[#FBFBFB] shadow-[0px_2px_15px_0_rgba(99,99,99,0.2)] rounded-lg p-[10px] col-start-3 md:col-start-2 sm:col-start-1">
                         <Image
+                            className='sm:w-full'
                             src="/assets/Image 7.svg"
                             width={250}
                             height={150}

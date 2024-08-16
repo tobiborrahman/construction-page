@@ -1,18 +1,18 @@
 import Image from 'next/image';
 import React from 'react';
+import { AiFillInstagram } from 'react-icons/ai';
+import { FaFacebookF, FaTelegramPlane, FaTwitch, FaTwitter } from 'react-icons/fa';
 
-// import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa';
-// import { MdOutlineMail, MdOutlinePhoneInTalk } from 'react-icons/md';
-// import { FiMapPin } from 'react-icons/fi';
+
 
 const Footer = () => {
     return (
         <>
-            <div className="bg-[#004585] mt-[100px]">
+            <div className="bg-[#004585] mt-[100px] lg:mt-[400px] pb-[30px]">
                 <div className="custom-container">
                     <div className="text-white pb-5 px-[15px]">
-                        <div className="flex justify-between py-10 text-white">
-                            <div>
+                        <div className="flex sm:flex-col md:flex-col lg:flex-row justify-between py-10 text-white">
+                            <div className='mb-10 lg:pb-0'>
                                 <div>
                                     <Image
 
@@ -47,7 +47,7 @@ const Footer = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="md:my-0 lg-my-0">
+                            <div className="pb-10 lg:mb-0">
                                 <div>
                                     <h4 className="text-[18px] font-medium pb-4 underline underline-offset-8">
                                         Quick Links
@@ -97,46 +97,125 @@ const Footer = () => {
 
                                 </div>
                             </div>
-                            <div>
+                            <div className='pb-10 lg:mb-0'>
                                 <div>
 
                                     <h4 className="text-[18px] font-medium pb-4 underline underline-offset-8">
                                         Our Services
                                     </h4>
 
-                                    <div className='flex justify-normal items-center'>
+                                    <div className='flex justify-normal items-center pb-4'>
                                         <Image className='filter invert brightness-0 hue-rotate-0 pr-1' src='/assets/Icon 3.svg' width={20} height={20} alt='right arrow' />
                                         <h6 className="text-[13px]">
                                             Permanent Recruitment
                                         </h6>
                                     </div>
-                                    upport
-                                </h6>
+                                    <div className='flex justify-normal items-center pb-4'>
+                                        <Image className='filter invert brightness-0 hue-rotate-0 pr-1' src='/assets/Icon 3.svg' width={20} height={20} alt='right arrow' />
+                                        <h6 className="text-[13px]">
+                                            Contract Staffing
+                                        </h6>
+                                    </div>
+                                    <div className='flex justify-normal items-center pb-4'>
+                                        <Image className='filter invert brightness-0 hue-rotate-0 pr-1' src='/assets/Icon 3.svg' width={20} height={20} alt='right arrow' />
+                                        <h6 className="text-[13px]">
+                                            Housing & Accomodation Support
+                                        </h6>
+                                    </div>
+                                    <div className='flex justify-normal items-center pb-4'>
+                                        <Image className='filter invert brightness-0 hue-rotate-0 pr-1' src='/assets/Icon 3.svg' width={20} height={20} alt='right arrow' />
+                                        <h6 className="text-[13px]">
+                                            Compliance and Legal Support
+                                        </h6>
+                                    </div>
+                                    <div className='flex justify-normal items-center pb-4'>
+                                        <Image className='filter invert brightness-0 hue-rotate-0 pr-1' src='/assets/Icon 3.svg' width={20} height={20} alt='right arrow' />
+                                        <h6 className="text-[13px]">
+                                            Workforce Planning
+                                        </h6>
+                                    </div>
+                                    <div className='flex justify-normal items-center pb-4'>
+                                        <Image className='filter invert brightness-0 hue-rotate-0 pr-1' src='/assets/Icon 3.svg' width={20} height={20} alt='right arrow' />
+                                        <h6 className="text-[13px]">
+                                            Background Checks
+                                        </h6>
+                                    </div>
+                                    <div className='flex justify-normal items-center pb-4'>
+                                        <Image className='filter invert brightness-0 hue-rotate-0 pr-1' src='/assets/Icon 3.svg' width={20} height={20} alt='right arrow' />
+                                        <h6 className="text-[13px]">
+                                            Onboarding Suppor
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="md:mt-0">
+                                <span className="text-xl font-bold pb-4">
+                                    Get In Touch
+                                </span>
+                                <p className="text-[12px] mt-4 mb-3">
+                                    Subscribe Our Newsletter to <br />
+                                    Get Latest Update & News
+                                </p>
+
+                                <div className='flex'>
+                                    <input
+                                        className="w-[200px] py-[10px] pl-3 rounded placeholder-[#000000] text-[10px]"
+                                        placeholder="Your Email Here"
+                                        type="email"
+                                    />
+                                    <button className='bg-[#FC0845] text-white text-[12px] font-normal px-4 rounded ml-[-10px]'>
+                                        Subscribe
+                                    </button>
+                                </div>
+                                <div className='flex items-center mt-10'>
+                                    <div className='bg-[#FC0845] rounded-full mr-2'>
+                                        <Image className='filter invert brightness-0 hue-rotate-0 p-[6px]' src='/assets/Icon 9.svg' width={25} height={25} alt='phone icon' />
+                                    </div>
+                                    <p className='text-[10px]'>+40 123 456 789</p>
+                                </div>
+                                <div className='flex items-center mt-3'>
+                                    <div className='bg-[#FC0845] rounded-full mr-2'>
+                                        <Image className='filter invert brightness-0 hue-rotate-0 p-[6px]' src='/assets/Icon 10.svg' width={25} height={25} alt='phone icon' />
+                                    </div>
+                                    <p className='text-[10px]'>contact@hireandfire.agency</p>
+                                </div>
+                                <div className='flex mt-3 items-center'>
+                                    <div className='bg-[#FC0845] rounded-full mr-2'>
+                                        <Image className='filter invert brightness-0 hue-rotate-0 p-[6px]' src='/assets/Icon 8.svg' width={25} height={25} alt='phone icon' />
+                                    </div>
+                                    <p className='text-[10px] leading-[15px]'>Strada ING. Zablovschi, Nr. 10, Biroul 1, <br /> Sectorul 1,
+                                        Bucuresti, Romania.
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                        <div className="md:mt-0">
-                            <span className="text-xl font-bold pb-4">
-                                Get In Touch
-                            </span>
-                            <p className="text-[17px] mt-4 mb-3">
-                                Subscribe Our Newsletter to
+                    </div>
+                </div>
+                <div className='flex justify-center items-center'>
+                    <div className='w-[1300px]'>
+                        <div className='text-white flex sm:flex-col sm:items-center md:flex-col lg:flex-row justify-between items-center px-[95px]'>
+                            <div>
+                                <p className='text-[10px] font-normal'>&copy; Copyright <span id='year'></span> "Hire & Fire" All Rights Reserved</p>
+                            </div>
+                            <div className='flex justify-between items-center gap-4 py-2 lg:my-0'>
+                                <li className='text-[10px] font-normal'>Privacy Policy</li>
+                                <li className='text-[10px] font-normal'>Terms & Conditions</li>
+                                <li className='text-[10px] font-normal'>Cookie Policy</li>
+                            </div>
+                            <div className='flex justify-between items-center gap-3'>
+                                <p className='text-[10px] font-normal'>Follow Us</p>
 
-                                Get Latest Update & News
-                            </p>
-
-                            <input
-                                className="w-full py-3 pl-3 mb-2 text-white font-semibold rounded bg-transparent  border border-[#C25934]"
-                                placeholder="Enter Your Email "
-                                type="email"
-                            />
-                            <button className="w-full py-3 pl-3 bg-[#C25934] font-semibold rounded">
-                                Subscribe
-                            </button>
+                                <div className='flex justify-between items-center gap-[10px]'>
+                                    <li className='bg-white rounded-full p-[8px] w-6 h-6 text-[#FC0845] flex items-center justify-center'><FaFacebookF /></li>
+                                    <li className='bg-white rounded-full p-[6px] w-6 h-6 text-[#FC0845] flex items-center justify-center'><AiFillInstagram /></li>
+                                    <li className='bg-white rounded-full p-[6px] w-6 h-6 text-[#FC0845] flex items-center justify-center'><FaTwitter /></li>
+                                    <li className='bg-white rounded-full p-[6px] w-6 h-6 text-[#FC0845] flex items-center justify-center'><FaTelegramPlane /></li>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div >
         </>
     );
 };
