@@ -6,7 +6,7 @@ const Construction = () => {
         <div className='custom-container py-[80px]'>
             <div className='flex sm:flex-col md:flex-col justify-between items-center'>
                 <div className='w-[525px] sm:w-full md:w-full'>
-                    <h2 className='text-[35px] sm:text-center font-semibold sm:leading-[35px]'>
+                    <h2 className='text-[35px] sm:text-[25px] sm:text-center font-semibold sm:leading-[35px]'>
                         Your Partner in international Construction Recruitment
                     </h2>
                     <p className='text-[11.9px] py-[25px] leading-[20px]'>

@@ -6,7 +6,7 @@ const Benefits = () => {
         <div>
             <div className="custom-container">
                 <div className="text-center mb-12">
-                    <h2 className="text-[35px] font-semibold">
+                    <h2 className="text-[35px] sm:text-[25px] font-semibold sm:text-center sm:leading-[35px]">
                         Benefits of Hiring Through Us
                     </h2>
                     <p className="text-[12px] py-[20px]">

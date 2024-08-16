@@ -12,7 +12,7 @@ const Footer = () => {
                 <div className="custom-container">
                     <div className="text-white px-[15px]">
                         <div className="flex sm:flex-col md:flex-col lg:flex-row justify-between pt-10 text-white">
-                            <div className='mb-0 sm:pb-0'>
+                            <div className='mb-0 sm:pb-10'>
                                 <div>
                                     <Image
 
@@ -47,7 +47,7 @@ const Footer = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="pb-0 sm:mb-0">
+                            <div className="pb-0 sm:mb-10">
                                 <div>
                                     <h4 className="text-[18px] font-medium pb-4 underline underline-offset-8">
                                         Quick Links
@@ -195,7 +195,7 @@ const Footer = () => {
                     <div className='w-[1300px]'>
                         <div className='text-white flex sm:flex-col sm:items-center md:flex-col lg:flex-row justify-between items-center px-[95px]'>
                             <div>
-                                <p className='text-[10px] font-normal'>&copy; Copyright <span id='year'></span> "Hire & Fire" All Rights Reserved</p>
+                                <p className='text-[10px] font-normal'>&copy; Copyright 2024 "Hire & Fire" All Rights Reserved</p>
                             </div>
                             <div className='flex justify-between items-center gap-4 py-2 lg:my-0'>
                                 <li className='text-[10px] font-normal'>Privacy Policy</li>

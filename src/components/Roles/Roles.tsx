@@ -6,7 +6,7 @@ const Roles = () => {
         <div>
             <div className="custom-container pb-[80px]">
                 <div className="text-center">
-                    <h2 className="text-[35px] font-semibold">Roles we Fill</h2>
+                    <h2 className="text-[35px] sm:text-[25px] font-semibold">Roles we Fill</h2>
                     <p className="text-[12px] py-[20px]">
                         "We fill roles in construction, matching skilled
                         professionals like engineers, supervisors, <br />  and
