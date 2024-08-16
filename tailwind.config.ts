@@ -69,5 +69,6 @@ const config: Config = {
 		},
 	},
 	plugins: [],
+	safelist: ['filter', 'invert', 'brightness-0', 'hue-rotate-0'],
 };
 export default config;

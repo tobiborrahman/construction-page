@@ -14,11 +14,11 @@ const Navbar = () => {
         <>
             <div className="custom-container block sm:hidden">
                 <div className="flex justify-between items-center">
-                    <div className="py-[3px]">
+                    <div className="py-[2.5px] w-[60px] h-[55px]">
                         <Image
                             src="/assets/Logo.svg"
                             width={60}
-                            height={80}
+                            height={10}
                             alt="logo"
                         />
                     </div>
